@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A5BBE92-A0E4-4C23-A7C8-F3DD733EE371}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>REFORDS.My.MyApplication</StartupObject>
+    <RootNamespace>REFORDS</RootNamespace>
+    <AssemblyName>REFORDS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>REFORDS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>REFORDS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>food.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chinese.designer.vb">
+      <DependentUpon>chinese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chinese.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coffees.designer.vb">
+      <DependentUpon>coffees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="coffees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedback.Designer.vb">
+      <DependentUpon>feedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutus.Designer.vb">
+      <DependentUpon>aboutus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="aboutus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.vb">
+      <DependentUpon>cart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="next1.Designer.vb">
+      <DependentUpon>next1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="next1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration.Designer.vb">
+      <DependentUpon>registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderdetails.Designer.vb">
+      <DependentUpon>orderdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icecream.designer.vb">
+      <DependentUpon>icecream.vb</DependentUpon>
+    </Compile>
+    <Compile Include="icecream.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="continental.designer.vb">
+      <DependentUpon>continental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="continental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indian.designer.vb">
+      <DependentUpon>indian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="indian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tea.designer.vb">
+      <DependentUpon>tea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="snacks.designer.vb">
+      <DependentUpon>snacks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="snacks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="italian.designer.vb">
+      <DependentUpon>italian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="italian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seafood.designer.vb">
+      <DependentUpon>seafood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seafood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="southindian.Designer.vb">
+      <DependentUpon>southindian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="southindian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logo.Designer.vb">
+      <DependentUpon>logo.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menupg.Designer.vb">
+      <DependentUpon>menupg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menupg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chinese.resx">
+      <DependentUpon>chinese.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coffees.resx">
+      <DependentUpon>coffees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedback.resx">
+      <DependentUpon>feedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutus.resx">
+      <DependentUpon>aboutus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="next1.resx">
+      <DependentUpon>next1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration.resx">
+      <DependentUpon>registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icecream.resx">
+      <DependentUpon>icecream.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="continental.resx">
+      <DependentUpon>continental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="indian.resx">
+      <DependentUpon>indian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderdetails.resx">
+      <DependentUpon>orderdetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tea.resx">
+      <DependentUpon>tea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="snacks.resx">
+      <DependentUpon>snacks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="italian.resx">
+      <DependentUpon>italian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seafood.resx">
+      <DependentUpon>seafood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="southindian.resx">
+      <DependentUpon>southindian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logo.resx">
+      <DependentUpon>logo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menupg.resx">
+      <DependentUpon>menupg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form1.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chef.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chana_Masala_loose_big.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal-makhani1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aloo palak.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tadka dal.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aloo matar.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mushroom mutter curry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special thali.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jeera aloo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masala bhendi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kadai paneer.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_4710x2919__1_.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dosa.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idlisambhar.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sambharwada.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambadivilas.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banghancurry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uttapam.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appe.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\southcuisine.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biryanibhaat.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggmasala.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squidgoldenfry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prawncurry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squidsaltpepper.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prawnstandoor.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crabmasala.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crabgarlic.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crab tandoor.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispfry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobster.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promfitchilli.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasta.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shellnoodels.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biella.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italiandonut.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olivepizza.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italiancuisine.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mania.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastapeas.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastasausages.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastamacrony.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noodles.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soupypirhana.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foodfishsushi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keema.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soupyturtle.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggroll.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumpling.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chowmin.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bamboo wok.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chinesechikenfeet.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aloobonda.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sambharwada1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dalkachori.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionkachori.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dryfruitsamosa.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dahikachori.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chatsamosa.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planelemontea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coldlemontea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mintlemontea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackminttea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blacktea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greentea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gingertea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milktea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strawberrytea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masaltea.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococherry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococubsberry.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecreamberryroll.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecreamnapkin.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocoballs.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vanilla waffy.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecreamcusturd.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choconuts.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boogiwoogiball.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocochocobowl.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\affogato.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafefrape.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expressomachiato.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wienermielange.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baileyscoffee.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cremaexpresso.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flatwhitecoffee.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latte.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mochalatte.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\originalturkish.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\westincontifood.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueberrycrepes.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chikenkabab.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curtesybelesaru.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curtesyyummy.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherrynoodles.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noodoprawns.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\constispicyfood.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oniomasala.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rostedpieces.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="food.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

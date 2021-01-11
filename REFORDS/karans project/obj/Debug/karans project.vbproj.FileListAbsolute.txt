@@ -1,0 +1,53 @@
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\karans project.vbproj.GenerateResource.Cache
+E:\all project thing\karan pro\REFORDS\karans project\bin\Debug\REFORDS.exe.config
+E:\all project thing\karan pro\REFORDS\karans project\bin\Debug\REFORDS.exe
+E:\all project thing\karan pro\REFORDS\karans project\bin\Debug\REFORDS.pdb
+E:\all project thing\karan pro\REFORDS\karans project\bin\Debug\REFORDS.xml
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.exe
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.xml
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.pdb
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.chinese.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.coffees.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.feedback.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.aboutus.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.cart.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.registration.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.login.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.icecream.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.continental.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.indian.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.orderdetails.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.tea.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.snacks.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.italian.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.seafood.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.southindian.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.logo.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.menupg.resources
+E:\all project thing\karan pro\REFORDS\karans project\obj\Debug\REFORDS.Resources.resources
+E:\projects\refords\karan pro\REFORDS\karans project\bin\Debug\REFORDS.exe.config
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.exe
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.xml
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.pdb
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.AboutBox1.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.chinese.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.coffees.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.feedback.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.aboutus.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.cart.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.registration.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.login.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.icecream.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.continental.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.indian.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.orderdetails.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.tea.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.snacks.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.italian.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.seafood.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.southindian.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.logo.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.menupg.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.Resources.resources
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\karans project.vbproj.GenerateResource.Cache
+E:\projects\refords\karan pro\REFORDS\karans project\obj\Debug\REFORDS.next1.resources
